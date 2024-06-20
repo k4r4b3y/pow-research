@@ -15,15 +15,15 @@ We use historical price and hashrate data from [Coin Metrics](https://charts.coi
 This project requires python3 and virtualenv.
 
 ```
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+python -m venv .venv
+source ./.venv/bin/activate
+./.venv/bin/pip install -r requirements.txt
 ```
 
 ## Running
 
 ```
-python3 main.py
+./.venv/bin/python main.py
 ```
 
 ## Afterword
