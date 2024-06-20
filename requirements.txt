@@ -6,11 +6,11 @@
 # Turn the 'greater than' into 'equals' and pin the library versions
 # as were back then.
 
-requests==2.22.0
-pandas==0.25.3
-dash==1.19.0
-psutil==5.8.0
-kaleido==0.1.0
+requests>=2.22.0
+pandas>=0.25.3
+dash>=1.19.0
+psutil>=5.8.0
+kaleido>=0.1.0
 
 # sklearn got its name changed into 'scikit-learn'.  According to
 # their release history, which is available on
@@ -18,4 +18,4 @@ kaleido==0.1.0
 # got released on April 2021, which corresponds to this python code's
 # original public release.
 
-scikit-learn==0.24.0
+scikit-learn<1.0.0
