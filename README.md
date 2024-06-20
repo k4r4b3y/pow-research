@@ -39,7 +39,23 @@ General Mining Research to seed our model.
 
 This project requires python3 and virtualenv.
 
+On debian 12, install following packages.
+
+```bash
+sudo apt install python3 virtualenv python-is-python3
 ```
+
+Python version should be 3:
+
+```bash
+python --version
+```
+
+Clone the repository to your computer, and cd into the cloned
+directory.  Start a new virtual environment and install the
+requirements:
+
+```bash
 python -m venv .venv
 source ./.venv/bin/activate
 ./.venv/bin/pip install -r requirements.txt
@@ -47,7 +63,7 @@ source ./.venv/bin/activate
 
 ## Running
 
-```
+```bash
 ./.venv/bin/python main.py
 ```
 
